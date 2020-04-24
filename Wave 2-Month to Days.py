@@ -7,7 +7,7 @@ print("Please capitalize your first letter")
 month = input("Enter your month: ")
 month = str(month)
 
-# Check the mouth for days
+# Check the month for days
 
 if month in ("January", "March", "May", "July", "August", "October", "December"):
     print(str(month), "have 31 days")
